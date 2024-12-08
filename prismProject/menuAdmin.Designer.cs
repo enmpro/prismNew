@@ -162,6 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::prismProject.Properties.Resources.background2;
             this.ClientSize = new System.Drawing.Size(1184, 563);
             this.Controls.Add(this.ticketLabel);
             this.Controls.Add(this.listTicket);

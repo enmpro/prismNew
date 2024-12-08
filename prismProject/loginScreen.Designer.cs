@@ -86,6 +86,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::prismProject.Properties.Resources.backgroundLogin1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(405, 461);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.lblPass);
