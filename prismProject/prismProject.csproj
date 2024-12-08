@@ -178,6 +178,18 @@
     <Compile Include="BaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="clientHelpSimulation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientHelpSimulation.Designer.cs">
+      <DependentUpon>clientHelpSimulation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="closedTick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="closedTick.Designer.cs">
+      <DependentUpon>closedTick.cs</DependentUpon>
+    </Compile>
     <Compile Include="Employee.cs" />
     <Compile Include="EmployeeData.cs" />
     <Compile Include="FormLocation.cs" />
@@ -227,6 +239,12 @@
     <Compile Include="ticketReq.Designer.cs">
       <DependentUpon>ticketReq.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="clientHelpSimulation.resx">
+      <DependentUpon>clientHelpSimulation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="closedTick.resx">
+      <DependentUpon>closedTick.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="loginScreen.resx">
       <DependentUpon>loginScreen.cs</DependentUpon>
     </EmbeddedResource>

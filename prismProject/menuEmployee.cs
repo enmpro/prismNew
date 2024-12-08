@@ -39,9 +39,8 @@ namespace prismProject
             // use to read each row in table
             OleDbDataReader datareader = cmd.ExecuteReader();
 
-            
+
             string tickid, tickType, credate, ticket_name, stat, desc, emplid;
-            string softName, softType;
             short empl_id, ticket_id = 0;
             DateTime create_date = DateTime.Now;
 

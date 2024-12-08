@@ -173,3 +173,5 @@ C:\Users\HyperMan\Documents\GitHub\prismNew\prismProject\obj\x64\Debug\prismProj
 C:\Users\HyperMan\Documents\GitHub\prismNew\prismProject\obj\x64\Debug\prismPro.83C1C7BF.Up2Date
 C:\Users\HyperMan\Documents\GitHub\prismNew\prismProject\obj\x64\Debug\prismProject.exe
 C:\Users\HyperMan\Documents\GitHub\prismNew\prismProject\obj\x64\Debug\prismProject.pdb
+C:\Users\HyperMan\Documents\GitHub\prismNew\prismProject\obj\x64\Debug\prismProject.clientHelpSimulation.resources
+C:\Users\HyperMan\Documents\GitHub\prismNew\prismProject\obj\x64\Debug\prismProject.closedTick.resources
