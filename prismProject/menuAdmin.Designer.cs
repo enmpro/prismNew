@@ -33,19 +33,32 @@
             this.listTicket = new System.Windows.Forms.ListView();
             this.lblLIS = new System.Windows.Forms.Label();
             this.grpOptions = new System.Windows.Forms.GroupBox();
-            this.deleteTick = new System.Windows.Forms.RadioButton();
-            this.editTick = new System.Windows.Forms.RadioButton();
-            this.newTick = new System.Windows.Forms.RadioButton();
+            this.closedOpt = new System.Windows.Forms.RadioButton();
+            this.uninstallOpt = new System.Windows.Forms.RadioButton();
+            this.installOpt = new System.Windows.Forms.RadioButton();
+            this.repairOpt = new System.Windows.Forms.RadioButton();
             this.lblWelcome = new System.Windows.Forms.Label();
             btnSubmit = new System.Windows.Forms.Button();
             this.grpOptions.SuspendLayout();
             this.SuspendLayout();
             // 
+            // btnSubmit
+            // 
+            btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            btnSubmit.ForeColor = System.Drawing.Color.Black;
+            btnSubmit.Location = new System.Drawing.Point(119, 471);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new System.Drawing.Size(114, 35);
+            btnSubmit.TabIndex = 19;
+            btnSubmit.Text = "Submit";
+            btnSubmit.UseVisualStyleBackColor = true;
+            btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
             // ticketLabel
             // 
             this.ticketLabel.AutoSize = true;
             this.ticketLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ticketLabel.Location = new System.Drawing.Point(485, 129);
+            this.ticketLabel.Location = new System.Drawing.Point(439, 128);
             this.ticketLabel.Name = "ticketLabel";
             this.ticketLabel.Size = new System.Drawing.Size(398, 33);
             this.ticketLabel.TabIndex = 21;
@@ -59,17 +72,6 @@
             this.listTicket.Size = new System.Drawing.Size(747, 317);
             this.listTicket.TabIndex = 20;
             this.listTicket.UseCompatibleStateImageBehavior = false;
-            // 
-            // btnSubmit
-            // 
-            btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            btnSubmit.ForeColor = System.Drawing.Color.Black;
-            btnSubmit.Location = new System.Drawing.Point(128, 419);
-            btnSubmit.Name = "btnSubmit";
-            btnSubmit.Size = new System.Drawing.Size(114, 35);
-            btnSubmit.TabIndex = 19;
-            btnSubmit.Text = "Submit";
-            btnSubmit.UseVisualStyleBackColor = true;
             // 
             // lblLIS
             // 
@@ -86,51 +88,65 @@
             // 
             // grpOptions
             // 
-            this.grpOptions.Controls.Add(this.deleteTick);
-            this.grpOptions.Controls.Add(this.editTick);
-            this.grpOptions.Controls.Add(this.newTick);
+            this.grpOptions.Controls.Add(this.closedOpt);
+            this.grpOptions.Controls.Add(this.uninstallOpt);
+            this.grpOptions.Controls.Add(this.installOpt);
+            this.grpOptions.Controls.Add(this.repairOpt);
             this.grpOptions.Location = new System.Drawing.Point(63, 264);
             this.grpOptions.Name = "grpOptions";
-            this.grpOptions.Size = new System.Drawing.Size(225, 149);
+            this.grpOptions.Size = new System.Drawing.Size(225, 175);
             this.grpOptions.TabIndex = 17;
             this.grpOptions.TabStop = false;
             this.grpOptions.Text = "Options";
             // 
-            // deleteTick
+            // closedOpt
             // 
-            this.deleteTick.AutoSize = true;
-            this.deleteTick.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deleteTick.Location = new System.Drawing.Point(23, 87);
-            this.deleteTick.Name = "deleteTick";
-            this.deleteTick.Size = new System.Drawing.Size(154, 28);
-            this.deleteTick.TabIndex = 2;
-            this.deleteTick.TabStop = true;
-            this.deleteTick.Text = "Remove Ticket";
-            this.deleteTick.UseVisualStyleBackColor = true;
+            this.closedOpt.AutoSize = true;
+            this.closedOpt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closedOpt.Location = new System.Drawing.Point(23, 121);
+            this.closedOpt.Name = "closedOpt";
+            this.closedOpt.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.closedOpt.Size = new System.Drawing.Size(151, 28);
+            this.closedOpt.TabIndex = 3;
+            this.closedOpt.TabStop = true;
+            this.closedOpt.Text = "Closed Tickets";
+            this.closedOpt.UseVisualStyleBackColor = true;
             // 
-            // editTick
+            // uninstallOpt
             // 
-            this.editTick.AutoSize = true;
-            this.editTick.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.editTick.Location = new System.Drawing.Point(23, 53);
-            this.editTick.Name = "editTick";
-            this.editTick.Size = new System.Drawing.Size(115, 28);
-            this.editTick.TabIndex = 1;
-            this.editTick.TabStop = true;
-            this.editTick.Text = "Edit Ticket";
-            this.editTick.UseVisualStyleBackColor = true;
+            this.uninstallOpt.AutoSize = true;
+            this.uninstallOpt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uninstallOpt.Location = new System.Drawing.Point(23, 87);
+            this.uninstallOpt.Name = "uninstallOpt";
+            this.uninstallOpt.Size = new System.Drawing.Size(98, 28);
+            this.uninstallOpt.TabIndex = 2;
+            this.uninstallOpt.TabStop = true;
+            this.uninstallOpt.Text = "Uninstall";
+            this.uninstallOpt.UseVisualStyleBackColor = true;
             // 
-            // newTick
+            // installOpt
             // 
-            this.newTick.AutoSize = true;
-            this.newTick.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.newTick.Location = new System.Drawing.Point(23, 19);
-            this.newTick.Name = "newTick";
-            this.newTick.Size = new System.Drawing.Size(135, 28);
-            this.newTick.TabIndex = 0;
-            this.newTick.TabStop = true;
-            this.newTick.Text = "Select Ticket";
-            this.newTick.UseVisualStyleBackColor = true;
+            this.installOpt.AutoSize = true;
+            this.installOpt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.installOpt.Location = new System.Drawing.Point(23, 53);
+            this.installOpt.Name = "installOpt";
+            this.installOpt.Size = new System.Drawing.Size(74, 28);
+            this.installOpt.TabIndex = 1;
+            this.installOpt.TabStop = true;
+            this.installOpt.Text = "Install";
+            this.installOpt.UseVisualStyleBackColor = true;
+            // 
+            // repairOpt
+            // 
+            this.repairOpt.AutoSize = true;
+            this.repairOpt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.repairOpt.Location = new System.Drawing.Point(23, 19);
+            this.repairOpt.Name = "repairOpt";
+            this.repairOpt.Size = new System.Drawing.Size(83, 28);
+            this.repairOpt.TabIndex = 0;
+            this.repairOpt.TabStop = true;
+            this.repairOpt.Text = "Repair";
+            this.repairOpt.UseVisualStyleBackColor = true;
             // 
             // lblWelcome
             // 
@@ -156,6 +172,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "menuAdmin";
             this.Text = "menuAdmin";
+            this.Load += new System.EventHandler(this.menuAdmin_Load);
             this.grpOptions.ResumeLayout(false);
             this.grpOptions.PerformLayout();
             this.ResumeLayout(false);
@@ -169,9 +186,10 @@
         private System.Windows.Forms.ListView listTicket;
         public System.Windows.Forms.Label lblLIS;
         private System.Windows.Forms.GroupBox grpOptions;
-        private System.Windows.Forms.RadioButton deleteTick;
-        private System.Windows.Forms.RadioButton editTick;
-        private System.Windows.Forms.RadioButton newTick;
+        private System.Windows.Forms.RadioButton uninstallOpt;
+        private System.Windows.Forms.RadioButton installOpt;
+        private System.Windows.Forms.RadioButton repairOpt;
         private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.RadioButton closedOpt;
     }
 }

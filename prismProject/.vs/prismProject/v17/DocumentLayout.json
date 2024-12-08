@@ -1,50 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\",
+  "WorkspaceRootPath": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismproject\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismnew\\prismproject\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismnew\\prismproject\\menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:menuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismproject\\ticketedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:ticketedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismnew\\prismproject\\menuemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:menuemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismproject\\ticketedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:ticketedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismnew\\prismproject\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\menuemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:menuemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismproject\\ticketreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:ticketreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\ticketreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:ticketreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismproject\\programlinklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:loginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\menuemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:menuemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:ticketedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:ticketedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:ticketreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:ticketreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\programlinklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:programlinklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|c:\\users\\hyperman\\documents\\github\\prismproject\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F76674C-DBC6-4C43-8F0D-174CFB5DFD82}|prismProject.csproj|solutionrelative:splashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,11 +74,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "loginScreen.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\loginScreen.cs",
+              "RelativeDocumentMoniker": "loginScreen.cs",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\loginScreen.cs",
+              "RelativeToolTip": "loginScreen.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAcwLoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:38:40.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "menuAdmin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\menuAdmin.cs",
+              "Title": "menuAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\menuAdmin.cs",
               "RelativeDocumentMoniker": "menuAdmin.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\menuAdmin.cs [Design]",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\menuAdmin.cs",
+              "RelativeToolTip": "menuAdmin.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAwF4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:34:42.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "menuAdmin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\menuAdmin.cs",
+              "RelativeDocumentMoniker": "menuAdmin.cs",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\menuAdmin.cs [Design]",
               "RelativeToolTip": "menuAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T00:20:41.802Z",
@@ -75,23 +113,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "menuEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\menuEmployee.cs",
+              "RelativeDocumentMoniker": "menuEmployee.cs",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\menuEmployee.cs",
+              "RelativeToolTip": "menuEmployee.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwIQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:16:57.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ticketEdit.cs",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\ticketEdit.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketEdit.cs",
               "RelativeDocumentMoniker": "ticketEdit.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\ticketEdit.cs",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketEdit.cs",
               "RelativeToolTip": "ticketEdit.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAIwNUAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAuwNUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T21:32:34.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "ticketEdit.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\ticketEdit.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketEdit.cs",
               "RelativeDocumentMoniker": "ticketEdit.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\ticketEdit.cs [Design]",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketEdit.cs [Design]",
               "RelativeToolTip": "ticketEdit.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T21:30:29.993Z",
@@ -99,11 +150,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ticketReq.cs",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\ticketReq.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketReq.cs",
               "RelativeDocumentMoniker": "ticketReq.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\ticketReq.cs",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketReq.cs",
               "RelativeToolTip": "ticketReq.cs",
               "ViewState": "AgIAAJMAAAAAAAAAAAAmwIUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -112,11 +163,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ticketReq.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\ticketReq.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketReq.cs",
               "RelativeDocumentMoniker": "ticketReq.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\ticketReq.cs [Design]",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\ticketReq.cs [Design]",
               "RelativeToolTip": "ticketReq.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T13:11:55.028Z",
@@ -124,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\Ticket.cs",
               "RelativeDocumentMoniker": "Ticket.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\Ticket.cs",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\Ticket.cs",
               "RelativeToolTip": "Ticket.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -137,11 +188,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "programLinkList.cs",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\programLinkList.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\programLinkList.cs",
               "RelativeDocumentMoniker": "programLinkList.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\programLinkList.cs",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\programLinkList.cs",
               "RelativeToolTip": "programLinkList.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAYwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,11 +201,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "menuEmployee.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\menuEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\menuEmployee.cs",
               "RelativeDocumentMoniker": "menuEmployee.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\menuEmployee.cs [Design]",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\menuEmployee.cs [Design]",
               "RelativeToolTip": "menuEmployee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T13:00:59.601Z",
@@ -162,11 +213,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "splashScreen.cs",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\splashScreen.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\splashScreen.cs",
               "RelativeDocumentMoniker": "splashScreen.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\splashScreen.cs",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\splashScreen.cs",
               "RelativeToolTip": "splashScreen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,11 +226,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "splashScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\splashScreen.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\splashScreen.cs",
               "RelativeDocumentMoniker": "splashScreen.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\splashScreen.cs [Design]",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\splashScreen.cs [Design]",
               "RelativeToolTip": "splashScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T12:48:03.107Z",
@@ -189,9 +240,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "loginScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\loginScreen.cs",
+              "DocumentMoniker": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\loginScreen.cs",
               "RelativeDocumentMoniker": "loginScreen.cs",
-              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismProject\\loginScreen.cs [Design]",
+              "ToolTip": "C:\\Users\\HyperMan\\Documents\\GitHub\\prismNew\\prismProject\\loginScreen.cs [Design]",
               "RelativeToolTip": "loginScreen.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T12:40:39.687Z",

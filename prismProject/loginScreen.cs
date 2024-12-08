@@ -12,7 +12,7 @@ namespace prismProject
     public partial class loginScreen : BaseForm
     {
 
-        string lisname = "";
+        string lisname, department = "";
         short user_id = 0;
         public loginScreen()
         {
@@ -91,6 +91,7 @@ namespace prismProject
                     loginOK = true;
                     lisname = EmployeeData.employees[u].username;
                     user_id = EmployeeData.employees[u].userID;
+                    department = EmployeeData.employees[u].department;
                     EmployeeData.setListIndex(user_id);
                     break;
 
@@ -102,13 +103,27 @@ namespace prismProject
 
             if (loginOK)
             {
-                FormHelper.saveLocation(this);
-                //open Display 
-                menuEmployee display = new menuEmployee();
-                display.lblLIS.Text = "Welcome to PRISM, " + lisname;
-                display.lblLIS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-                display.Show();
-                this.Hide();
+                if (department.Contains("IT"))
+                {
+                    FormHelper.saveLocation(this);
+                    //open Display 
+                    menuAdmin d = new menuAdmin();
+                    d.lblLIS.Text = "Welcome to PRISM, " + lisname;
+                    d.lblLIS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                    d.Show();
+                    this.Hide();
+                } else
+                {
+                    FormHelper.saveLocation(this);
+                    //open Display 
+                    menuEmployee display = new menuEmployee();
+                    display.lblLIS.Text = "Welcome to PRISM, " + lisname;
+                    display.lblLIS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                    display.Show();
+                    this.Hide();
+                }
+
+               
             }
             else
             {
@@ -132,6 +147,8 @@ namespace prismProject
                     loginOK = true;
                     lisname = EmployeeData.employees[u].username;
                     user_id = EmployeeData.employees[u].userID;
+                    department = EmployeeData.employees[u].department;
+                    
                     EmployeeData.setListIndex(user_id);
                     break;
 
@@ -143,14 +160,26 @@ namespace prismProject
 
             if (loginOK)
             {
-                FormHelper.saveLocation(this);
-                //open Display Menu
-                menuEmployee display = new menuEmployee();
-
-                display.lblLIS.Text = "Welcome to PRISM, " + lisname;
-                display.lblLIS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-                display.Show();
-                this.Hide();
+                if (department.Contains("IT"))
+                {
+                    FormHelper.saveLocation(this);
+                    //open Display 
+                    menuAdmin d = new menuAdmin();
+                    d.lblLIS.Text = "Welcome to PRISM, " + lisname;
+                    d.lblLIS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                    d.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    FormHelper.saveLocation(this);
+                    //open Display 
+                    menuEmployee display = new menuEmployee();
+                    display.lblLIS.Text = "Welcome to PRISM, " + lisname;
+                    display.lblLIS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                    display.Show();
+                    this.Hide();
+                }
             }
             else
             {

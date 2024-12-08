@@ -15,7 +15,8 @@ namespace prismProject
 {
     public partial class menuEmployee : BaseForm
     {
-
+        string ticketType;
+        short ticket_IDGlob;
         public menuEmployee()
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace prismProject
             OleDbCommand cmd = con.CreateCommand();
             con.Open();
             cmd.Connection = con;
-            // use to fetch rows from demo table
+            // use to fetch rows from ticket table
             cmd.CommandText = "Select * from Ticket Where UserID = ?";
             cmd.Parameters.AddWithValue("?", EmployeeData.listIndex);
 
@@ -38,16 +39,19 @@ namespace prismProject
             // use to read each row in table
             OleDbDataReader datareader = cmd.ExecuteReader();
 
-            int ticket_index = 0;
-            string tickid, credate, ticket_name, stat, desc, emplid;
+            
+            string tickid, tickType, credate, ticket_name, stat, desc, emplid;
+            string softName, softType;
             short empl_id, ticket_id = 0;
             DateTime create_date = DateTime.Now;
+
 
             listTicket.View = View.Details;
             listTicket.FullRowSelect = true;
             listTicket.MultiSelect = true;
             listTicket.Columns.Add("Ticket #");
             listTicket.Columns.Add("Ticket Name", 150);
+            listTicket.Columns.Add("Type", 100);
             listTicket.Columns.Add("Date", 150);
             listTicket.Columns.Add("Status", 150);
             listTicket.Columns.Add("Description", 250);
@@ -56,22 +60,59 @@ namespace prismProject
             while (datareader.Read())
             {
                 tickid = datareader["TicketID"].ToString();
+                tickType = datareader["Type"].ToString();
+                ticketType = tickType;
                 credate = datareader["CreationDate"].ToString();
                 ticket_name = datareader["TicketName"].ToString();
                 stat = datareader["Status"].ToString();
                 desc = datareader["Description"].ToString();
                 emplid = datareader["UserID"].ToString();
+                
 
                 ticket_id = Int16.Parse(tickid);
                 empl_id = Int16.Parse(emplid);
                 create_date = DateTime.Parse(credate);
                 //Ticket ticketRec = new Ticket(ticket_id, create_date, fn, ln, stat, desc, empl_id);
                 //ticketList.Add(ticketRec);
-                listTicket.Items.Add(new ListViewItem(new string[] { tickid, ticket_name, credate, stat, desc }));
+                listTicket.Items.Add(new ListViewItem(new string[] { tickid, ticket_name, tickType, credate, stat, desc }));
                 listTicket.GridLines = true;
-
-                ticket_index++;
+                
             }
+            
+            foreach (ListViewItem item in listTicket.Items)
+            {
+                int ticketID = int.Parse(item.SubItems[0].Text);
+                
+                if (item.SubItems[2].Text == "Program")
+                {
+                    
+                    using (OleDbCommand cmd2 = con.CreateCommand())
+                    {
+                        
+                        cmd2.CommandText = "SELECT Software.SoftwareName, Software.[Type] " +
+                                          "FROM Software " +
+                                          "INNER JOIN Ticket ON Ticket.SoftwareID = Software.SoftwareID " +
+                                          "WHERE Ticket.TicketID = ?";
+
+                        cmd2.Parameters.Clear();
+                        cmd2.Parameters.AddWithValue("?", ticketID);
+
+                        using (OleDbDataReader datareader2 = cmd2.ExecuteReader())
+                        {
+                            if (datareader2.Read())
+                            {
+                                
+                                item.SubItems.Add(datareader2["SoftwareName"].ToString());
+                                item.SubItems.Add(datareader2["Type"].ToString());
+                            }
+                            
+                        }
+                    }
+                }
+
+               
+            }
+
             con.Close();
         }
 
@@ -85,7 +126,8 @@ namespace prismProject
                 t.Show();
                 this.Hide();
             }
-            if (editTick.Checked)
+            
+            if (editTick.Checked && (listTicket.SelectedItems[0].SubItems[4].Text == "Open"))
             {
                 if (listTicket.SelectedItems.Count == 1)
                 {
@@ -102,10 +144,16 @@ namespace prismProject
                 {
                     MessageBox.Show("Please select a ticket to edit.");
                 }
+            } else if (editTick.Checked && (listTicket.SelectedItems[0].SubItems[4].Text == "Closed"))
+            {
+                MessageBox.Show("Closed! No editing.");
             }
-            if (deleteTick.Checked)
+            if (deleteTick.Checked && (listTicket.SelectedItems[0].SubItems[4].Text == "Open"))
             {
                 recordsToClose();
+            } else if (deleteTick.Checked && (listTicket.SelectedItems[0].SubItems[4].Text == "Closed"))
+            {
+                MessageBox.Show("Already closed.");
             }
         }
 
