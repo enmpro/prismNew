@@ -1,0 +1,8 @@
+C:\Users\HyperMan\Documents\GitHub\prismProject\obj\x64\Release\prismProject.csproj.AssemblyReference.cache
+C:\Users\HyperMan\Documents\GitHub\prismProject\obj\x64\Release\prismProject.loginScreen.resources
+C:\Users\HyperMan\Documents\GitHub\prismProject\obj\x64\Release\prismProject.menuEmployee.resources
+C:\Users\HyperMan\Documents\GitHub\prismProject\obj\x64\Release\prismProject.Properties.Resources.resources
+C:\Users\HyperMan\Documents\GitHub\prismProject\obj\x64\Release\prismProject.splashScreen.resources
+C:\Users\HyperMan\Documents\GitHub\prismProject\obj\x64\Release\prismProject.ticketReq.resources
+C:\Users\HyperMan\Documents\GitHub\prismProject\obj\x64\Release\prismProject.csproj.GenerateResource.cache
+C:\Users\HyperMan\Documents\GitHub\prismProject\obj\x64\Release\prismProject.csproj.CoreCompileInputs.cache
